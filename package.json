@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --ssl true --ssl-cert ./ssl/server.crt --ssl-key ./ssl/server.key",
+    "start-ssh": "ng serve --ssl true --ssl-cert ./ssl/server.crt --ssl-key ./ssl/server.key",
+    "start": "ng serve",
     "build": "mkdir ./node_modules/@angular/core;cp -rf ./node_modules/@angular/compiler/package.json ./node_modules/@angular/core;ng build",
     "test": "ng test",
     "jest": "jest",
